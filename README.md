@@ -40,10 +40,10 @@ def check_palindrome(word):
     # Reverse the string using slicing with a step of -1
     return word == word[::-1]
 
-exaample = input("Enter a word: ")
-# check_palindrome(exaample)
+example = input("Enter a word: ")
+# check_palindrome(example)
 
-if check_palindrome(exaample):
+if check_palindrome(example):
     print("Palindrome😍")
 else:
     print("Not a palindrome🤣")
